@@ -1,0 +1,86 @@
+.background{
+    background-color: #85C1E9;
+}
+.wrap{
+    width: 375px;
+    height: 1000px;
+    background-color: white;
+    margin: 0 auto;
+}
+.col{
+    font-family: Kanit;
+    font-size: 25px;
+    color: #1B4861;
+}
+.bottom{
+    padding-bottom: 30px;
+}
+.video{
+    width: 145px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 20px;
+}
+.top{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.bt{
+    padding-bottom: 30px;
+}
+.curcle{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: #1B4861;
+    border-width: 20px;
+    color: white;
+    font-family: Kanit;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+.graf{
+    padding-left: 45px;
+    padding-top: 35px;
+}
+.text{
+    font-family: Kanit;
+    color: #707070;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 50px;
+    margin: 0 20px 0 20px;
+    text-align: center;
+}
+
+/* nav */
+.navigation{
+    width: 375px;
+    height: 72px;
+    background-color: #162933;
+    color: #D2D2D2;
+    margin-top: 50px;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+}
+.flex-container { 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+a { 
+    padding: 3%;
+    font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-name { 
+    font-family: Kanit;
+    font-size: 15px;
+}
+.active { 
+    color: #FDA400;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");

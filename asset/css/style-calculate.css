@@ -1,0 +1,87 @@
+.background{
+    background-color: #85C1E9;
+}
+.wrap{
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    margin: 0 auto;
+}
+.col{
+    font-family: Kanit;
+    font-size: 30px;
+    color: #1B4861;
+    text-align: center;
+}
+.bottom{
+    padding-bottom: 70px;
+}
+.input[type="number"] { 
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #1B4861;
+    color: #1B4861;
+}
+.top{
+    padding-top: 50px;
+}
+.age{
+    border: none;
+    border-bottom: 1px solid #1B4861;
+    color: #1B4861;
+}
+.text{
+    font-family: kanit;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #1B4861;
+    text-align: left;
+    padding-left: 20px;
+}
+.ex{
+    border: none;
+    border-bottom: 1px solid #1B4861;
+    color: #1B4861;
+    font-size: 18px;
+    margin-right: 70px;
+}
+.cal{
+    width: 175px;
+    height: 45px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FDA400;
+    color: white;
+}
+
+/* nav */
+.navigation{
+    width: 375px;
+    height: 72px;
+    background-color: #162933;
+    color: #D2D2D2;
+    margin-top: 50px;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+}
+.flex-container { 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+a { 
+    padding: 3%;
+    font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-name { 
+    font-family: Kanit;
+    font-size: 15px;
+}
+.active { 
+    color: #FDA400;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");

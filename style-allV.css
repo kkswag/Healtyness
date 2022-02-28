@@ -1,0 +1,78 @@
+.background {
+    background-color: #85C1E9;
+}
+
+.wrap {
+    width: 375px;
+    height: 812px;
+    /* background-color: white; */
+    margin: 0 auto;
+    background-image: url("img/bg.png");
+}
+
+.col {
+    text-align: center;
+    font-family: Kanit;
+    font-size: 30px;
+    font-weight: medium;
+    color: #1B4861;
+}
+
+.pic-bg {}
+
+.back {
+    border: none;
+    background-color: #1B4861;
+    color: #707070;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.bottom {
+    padding-bottom: 20px;
+}
+
+/* .v1 {
+    height: 145px;
+    background-color: #D2D2D2;
+    border-radius: 15px;
+} */
+
+.top {
+    padding-top: 20px;
+}
+.col p{
+    margin-top: 49px;
+}
+
+/* nav */
+.navigation{
+    width: 375px;
+    height: 72px;
+    background-color: #162933;
+    color: #D2D2D2;
+    margin-top: 50px;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+}
+.flex-container { 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+a { 
+    padding: 3%;
+    font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-name { 
+    font-family: Kanit;
+    font-size: 15px;
+}
+.active { 
+    color: #FDA400;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");

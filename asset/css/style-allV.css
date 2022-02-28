@@ -1,0 +1,38 @@
+.background{
+    background-color: #85C1E9;
+}
+.wrap{
+    width: 375px;
+    height: 812px;
+    /* background-color: white; */
+    margin: 0 auto;
+    background-image: url("asset\img\bg.png");
+}
+.col{
+    text-align: center;
+    font-family: Kanit;
+    font-size: 30px;
+    font-weight: medium;
+    color: #1B4861;
+}
+.back{
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.bottom{
+    padding-bottom: 20px;
+}
+.v1{
+    height: 145px;
+    background-color: white;
+    border-radius: 15px;
+}
+.top{
+    padding-top: 20px;
+}
+.p{
+    margin-top: 47px;
+}
